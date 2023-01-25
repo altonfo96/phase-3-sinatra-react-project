@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2023_01_24_001828) do
     t.string "esrb_rating"
   end
 
-  create_table "queues", force: :cascade do |t|
+  create_table "positions", force: :cascade do |t|
     t.integer "movie_id"
     t.integer "user_id"
   end
